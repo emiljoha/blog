@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+  static-webpage:
+    build: .
+    ports:
+     - "8080:80"
