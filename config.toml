@@ -1,4 +1,4 @@
-baseURL = "http://localhost:8080"
+baseURL = "https://blog.emijoh.se"
 languageCode = "en-us"
 title = "Computer adventures with emijoh."
 theme = "hugo-kiera"
