@@ -1,18 +1,18 @@
 +++
-title = "Dark Theme Transmission Web UI Using Docker"
+title = "Dark Theme Transmission Web UI"
 date = 2020-04-26T20:36:52+02:00
 draft = false
 tags = []
 categories = ["transmission", "docker", "docker-compose", "dark theme"]
 +++
 
-Having a dark color schemme is becoming more and more popular. This post
+Having a dark color scheme is becoming more and more popular. This post
 covers how to create and run a transmission docker container modified to have
 a dark website UI. The [linuxserver.io](linuxserver.io) transmission docker
 images provide the base, taking care of all the nitty gritty in getting
 transmission installed and ready for action. Installing
 [transmission-web-soft-theme](https://git.eigenlab.org/sbiego/transmission-web-soft-theme)
-on top of the transmission image will give a nice dark web ui.
+on top of the transmission image will give a nice dark web UI.
 
 Credit to the
 [transmission-web-soft-theme](https://git.eigenlab.org/sbiego/transmission-web-soft-theme)
@@ -37,7 +37,7 @@ possible to execute arbitrary shell commands. In this case the command is to
 download the
 [transmission-web-soft-theme](https://git.eigenlab.org/sbiego/transmission-web-soft-theme)
 repository as a `tar` ball, extracting the files, and running the install
-script provided in the theme repo. All according to the installation
+script provided in the theme repository. All according to the installation
 instruction on the [project wiki](https://git.eigenlab.org/sbiego/transmission-web-soft-theme/wikis/home)
 
 Finally, we expose the necessary ports and declare the persistent volumes for
@@ -97,4 +97,4 @@ need to [install Docker](https://docs.docker.com/engine/install/) and [docker-co
 docker-compose up -d --build
 ```
 
-Go to `localhost:9091` and enjoy your dark themed transmission web ui.
+Go to `localhost:9091` and enjoy your dark themed transmission web UI.
