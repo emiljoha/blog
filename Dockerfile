@@ -1,4 +1,4 @@
-FROM lsiobase/alpine:3.11 as build
+FROM alpine:latest as build
 
 RUN \
     apk add --no-cache \
