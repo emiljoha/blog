@@ -8,5 +8,4 @@ RUN hugo
 
 FROM nginx:latest
 
-COPY default.conf /etc/nginx/conf.d/default.conf
 COPY --from=build public /usr/share/nginx/html
