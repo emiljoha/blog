@@ -1,7 +1,10 @@
-version: '2'
+version: '3'
 
 services:
   static-webpage:
-    build: .
+    build:
+      context: .
+      args:
+        WEBSITE_BASE_URL: http://localhost:8080
     ports:
      - "8080:80"
