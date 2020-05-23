@@ -1,5 +1,5 @@
 +++
-title = "LaTeX Ci Build Enviroment"
+title = "LaTeX CI Build Environment"
 date = 2020-05-22T19:41:40+02:00
 draft = false
 tags = []
